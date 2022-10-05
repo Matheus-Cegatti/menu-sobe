@@ -58,7 +58,7 @@ body {
     overflow: hidden;
     background-color: #97BFB4;
     z-index: 9;
-    box-shadow: 3px 3px 7px #BCCC9A;
+    box-shadow: 1px 1px 7px 5px #A5BECC;
     transition: height 0.3s;
     border-radius: 40px;
     
@@ -72,7 +72,7 @@ body {
 .menu-circulo .menu-mais {
     color: white;
     font-size: 25px;
-    transition: opacity 0.3s, transform 0.5s;
+    transition: opacity 0.3s, transform 0.5s ease-in-out;
 }
 
 .menu-circulo:hover .menu-mais{
